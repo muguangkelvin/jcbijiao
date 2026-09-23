@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>客户端使用教程 - jcbijiao.my</title>
+  <meta name="description" content="Clash、Sing-box、Shadowrocket多平台客户端订阅配置教程。">
+  <link rel="canonical" href="https://jcbijiao.my/tutorials/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="客户端使用教程 - jcbijiao.my">
+  <meta property="og:description" content="Clash、Sing-box、Shadowrocket多平台客户端订阅配置教程。">
+  <meta property="og:url" content="https://jcbijiao.my/tutorials/">
+  <meta property="og:site_name" content="jcbijiao 机场比较网">
+  <link rel="alternate" type="application/rss+xml" title="jcbijiao RSS Feed" href="https://jcbijiao.my/feed.xml">
+  <link rel="stylesheet" href="/css/clean-white.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"客户端使用教程","url":"https://jcbijiao.my/tutorials/"}</script>
+</head>
+<body>
+  
+  <header class="site-header">
+    <div class="container header-top">
+      <div class="brand-area">
+        <a href="/" class="brand-logo">
+          <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          jcbijiao 机场比较网
+        </a>
+        <div class="brand-tagline">2026年稳定高速节点推荐与评测指南 · Clash/Sing-box/Shadowrocket客户端配置 · 便宜机场避坑与AI节点选购</div>
+      </div>
+      <div class="header-actions">
+        <a href="https://t.me/lingdong01" target="_blank" rel="noopener noreferrer" class="btn-icon-tag btn-tg" title="Telegram 交流频道">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 0 0-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+          <span>TG 频道</span>
+        </a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-icon-tag btn-github" title="GitHub 源码仓库">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          <span>GitHub</span>
+        </a>
+        <div class="header-search-wrapper">
+          <div class="header-search-input-group">
+            <input type="text" id="headerSearchInput" class="header-search-input" placeholder="搜索文章、FAQ、节点资讯..." autocomplete="off">
+            <button class="header-search-btn" title="搜索">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            </button>
+          </div>
+          <div id="headerSearchResults" class="search-results-dropdown"></div>
+        </div>
+        <a href="/reviews/" class="btn-cta-small">查看机场推荐榜</a>
+        <button class="mobile-menu-toggle" onclick="document.querySelector('.nav-bar').classList.toggle('mobile-open')">☰</button>
+      </div>
+    </div>
+    <div class="container">
+      <nav class="nav-bar">
+        <a href="/" class="nav-link ">首页</a><a href="/reviews/" class="nav-link ">机场推荐评测</a><a href="/guide/" class="nav-link ">选购与避坑指南</a><a href="/tutorials/" class="nav-link active">客户端使用教程</a><a href="/faq/" class="nav-link ">常见问题解答</a>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    
+  <div class="container article-container">
+    <div class="article-header">
+      <h1 class="article-title">客户端使用教程</h1>
+      <p class="article-meta">Clash、Sing-box、Shadowrocket多平台客户端订阅配置教程。</p>
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">首页</a> &gt; <span>客户端使用教程</span></nav>
+    </div>
+    <div class="faq-grid">
+      
+        <div class="faq-card">
+          <h2 class="faq-card-title" style="font-size:1.15rem;"><a href="/tutorials/clash-verge-rev-setup-tutorial/">Clash Verge Rev 极简配置教程与订阅导入</a></h2>
+          <p class="faq-card-excerpt">详细讲解Windows/macOS平台下现代开源客户端 Clash Verge Rev 的下载、汉化与订阅拉取。</p>
+          <div style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem;">
+            关键词: Clash/Sing-box订阅配置详细步骤 · 更新时间: 2026-09-22
+          </div>
+        </div>
+      
+        <div class="faq-card">
+          <h2 class="faq-card-title" style="font-size:1.15rem;"><a href="/tutorials/sing-box-universal-setup-tutorial/">Sing-box 跨平台客户端通用订阅设置指南</a></h2>
+          <p class="faq-card-excerpt">针对跨平台 Sing-box 客户端，提供通用JSON配置文件导入与节点组选择教程。</p>
+          <div style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem;">
+            关键词: Sing-box客户端配置 · 更新时间: 2026-09-22
+          </div>
+        </div>
+      
+        <div class="faq-card">
+          <h2 class="faq-card-title" style="font-size:1.15rem;"><a href="/tutorials/shadowrocket-ios-setup-tutorial/">Shadowrocket (小火箭) iOS最全配置使用教程</a></h2>
+          <p class="faq-card-excerpt">iPhone与iPad设备上使用小火箭 Shadowrocket 添加机场订阅、节点延迟测试与规则设置。</p>
+          <div style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem;">
+            关键词: Shadowrocket小火箭订阅教程 · 更新时间: 2026-09-22
+          </div>
+        </div>
+      
+        <div class="faq-card">
+          <h2 class="faq-card-title" style="font-size:1.15rem;"><a href="/tutorials/windows-clash-tun-mode-tutorial/">Windows系统下Clash安装与TUN模式开启指南</a></h2>
+          <p class="faq-card-excerpt">指导 Windows 用户开启 Clash TUN 模式，接管游戏与终端命令行流量。</p>
+          <div style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem;">
+            关键词: Clash Windows代理排障 · 更新时间: 2026-09-22
+          </div>
+        </div>
+      
+        <div class="faq-card">
+          <h2 class="faq-card-title" style="font-size:1.15rem;"><a href="/tutorials/macos-clash-nyanpasu-setup-tutorial/">macOS系统下Clash Nyanpasu安装与配置</a></h2>
+          <p class="faq-card-excerpt">为 Mac 用户提供 Clash Nyanpasu 极简配置说明，全面适配 Apple Silicon 芯片。</p>
+          <div style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem;">
+            关键词: Clash macOS配置教程 · 更新时间: 2026-09-22
+          </div>
+        </div>
+      
+        <div class="faq-card">
+          <h2 class="faq-card-title" style="font-size:1.15rem;"><a href="/tutorials/android-vpn-client-setup-tutorial/">Android手机科学上网客户端配置全攻略</a></h2>
+          <p class="faq-card-excerpt">介绍 Android 平台主流代理软件的安装包下载路径、订阅设置与省电优化技巧。</p>
+          <div style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem;">
+            关键词: Android科学上网客户端配置 · 更新时间: 2026-09-22
+          </div>
+        </div>
+      
+        <div class="faq-card">
+          <h2 class="faq-card-title" style="font-size:1.15rem;"><a href="/tutorials/subscription-converter-security-tutorial/">订阅转换工具使用教程与安全隐私防范</a></h2>
+          <p class="faq-card-excerpt">讲解订阅转换工具的工作原理，防范第三方公共转换端泄露订阅Token的风险。</p>
+          <div style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem;">
+            关键词: 订阅转换教程 · 更新时间: 2026-09-22
+          </div>
+        </div>
+      
+        <div class="faq-card">
+          <h2 class="faq-card-title" style="font-size:1.15rem;"><a href="/tutorials/openwrt-passwall-router-setup-tutorial/">软路由 (OpenWrt/PassWall) 机场订阅配置教程</a></h2>
+          <p class="faq-card-excerpt">教你如何在 OpenWrt 软路由上安装 PassWall / OpenClash，实现全屋设备自动科学上网。</p>
+          <div style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem;">
+            关键词: 软路由PassWall订阅配置 · 更新时间: 2026-09-22
+          </div>
+        </div>
+      
+        <div class="faq-card">
+          <h2 class="faq-card-title" style="font-size:1.15rem;"><a href="/tutorials/apple-tv-streaming-setup-tutorial/">Apple TV 科学上网配置与4K电视流媒体接管</a></h2>
+          <p class="faq-card-excerpt">为 Apple TV 用户提供 tvOS 系统下安装 Sing-box 或小火箭实现客厅4K超清观看的步骤。</p>
+          <div style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem;">
+            关键词: Apple TV科学上网配置 · 更新时间: 2026-09-22
+          </div>
+        </div>
+      
+        <div class="faq-card">
+          <h2 class="faq-card-title" style="font-size:1.15rem;"><a href="/tutorials/ai-airport-recommendation-chatgpt-claude/">AI 机场推荐：ChatGPT、Claude、Gemini 等工具的节点与套餐选择</a></h2>
+          <p class="faq-card-excerpt">针对使用 ChatGPT、Claude、Gemini 等海外 AI 语言大模型工具的用户，提供节点出口IP质检与套餐选购分析。</p>
+          <div style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem;">
+            关键词: AI 机场推荐 · 更新时间: 2026-09-22
+          </div>
+        </div>
+      
+        <div class="faq-card">
+          <h2 class="faq-card-title" style="font-size:1.15rem;"><a href="/tutorials/ai-tools-use-case-node-selection-guide/">AI 工具使用场景怎么选机场：地区节点、IP 质量、延迟与设备兼容</a></h2>
+          <p class="faq-card-excerpt">深入分析 AI 大模型对 IP 欺诈值、Datacenter 与 Residential IP 的校验机制，挑选稳健解锁节点。</p>
+          <div style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem;">
+            关键词: AI 工具机场推荐与节点选择 · 更新时间: 2026-09-22
+          </div>
+        </div>
+      
+        <div class="faq-card">
+          <h2 class="faq-card-title" style="font-size:1.15rem;"><a href="/tutorials/ai-office-cross-border-collaboration-airport/">AI 办公机场推荐：跨境协作、代码工具与多设备需求比较</a></h2>
+          <p class="faq-card-excerpt">面向使用 GitHub Copilot、Cursor、Midjourney 等 AI 工具的跨境开发团队，测评多设备稳定专线机场。</p>
+          <div style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem;">
+            关键词: AI 办公机场推荐 · 更新时间: 2026-09-22
+          </div>
+        </div>
+      
+    </div>
+  </div>
+  
+  </main>
+  
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <div class="footer-brand-title">jcbijiao 节点比较评测网</div>
+        <p class="footer-seo-text">
+          本站专注2026年机场推荐、性价比机场对比、Clash/Sing-box机场测评与节点选择指南，持续整理便宜机场、稳定节点推荐、AI机场推荐、节点订阅与优惠码信息，为用户提供带核验日期的选择参考。
+        </p>
+        <p class="footer-seo-text">
+          <strong>合作与核验说明：</strong> 本站页面可能包含合作邀请链接。排名受内容策略与合作关系影响，但不影响价格透明度。所有价格、节点与套餐均标注最后核验日期，具体以第三方服务商结算页面为准。
+        </p>
+      </div>
+      <div>
+        <div class="footer-links-title">导航目录</div>
+        <ul class="footer-links-list">
+          <li><a href="/reviews/">机场推荐评测</a></li>
+          <li><a href="/guide/">选购与避坑指南</a></li>
+          <li><a href="/tutorials/">客户端使用教程</a></li>
+          <li><a href="/faq/">常见问题 FAQ</a></li>
+          <li><a href="/providers/">独立服务测评库</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-links-title">信任与条款</div>
+        <ul class="footer-links-list">
+          <li><a href="/about/">关于我们</a></li>
+          <li><a href="/editorial-policy/">编辑原则</a></li>
+          <li><a href="/methodology/">评测方法</a></li>
+          <li><a href="/affiliate-disclosure/">联盟披露</a></li>
+          <li><a href="/privacy/">隐私政策</a></li>
+          <li><a href="/terms/">服务条款</a></li>
+          <li><a href="/contact/">联系我们</a></li>
+          <li><a href="/sitemap.xml">XML Sitemap</a></li>
+          <li><a href="/feed.xml">RSS 订阅</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      &copy; 2026 jcbijiao. All rights reserved. 第三方商标归其权利人所有，本站不暗示官方隶属关系。
+    </div>
+  </footer>
+  <script>
+    function copyCoupon(code, btn) {
+      navigator.clipboard.writeText(code).then(() => {
+        const orig = btn.innerText;
+        btn.innerText = '已复制!';
+        setTimeout(() => btn.innerText = orig, 2000);
+      });
+    }
+  </script>
+  
+  <script src="/js/search.js" defer></script>
+</body>
+</html>

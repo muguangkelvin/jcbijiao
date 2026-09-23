@@ -1,0 +1,12 @@
+keyword,normalized_keyword,impressions,intent,primary_url,public_status
+"机场推荐","机场推荐",28260,"Commercial","/reviews/","public"
+"节点购买","节点购买",28260,"Commercial","/providers/","public"
+"机场测速","机场测速",28260,"Informational","/guide/how-to-read-speedtest-charts-guide/","public"
+"机场对比","机场对比",28260,"Commercial","/","public"
+"翻墙机场","翻墙机场",28260,"Commercial","/reviews/2026-comprehensive-airport-review/","public"
+"科学上网节点","科学上网节点",28260,"Commercial","/faq/","public"
+"便宜机场","便宜机场",28260,"Commercial","/reviews/value-monthly-cheap-airport-review/","public"
+"4K流媒体解锁机场","4K流媒体解锁机场",28260,"Commercial","/reviews/4k-streaming-unlock-airport-review/","public"
+"IEPL专线机场","IEPL专线机场",28260,"Commercial","/reviews/iepl-private-line-airport-review/","public"
+"Clash节点配置","Clash节点配置",28260,"Informational","/tutorials/clash-verge-rev-setup-tutorial/","public"
+"AI 机场推荐","AI 机场推荐",28260,"Commercial","/tutorials/ai-airport-recommendation-chatgpt-claude/","public"

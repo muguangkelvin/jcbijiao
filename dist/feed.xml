@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>jcbijiao.my 机场比较网</title>
+    <link>https://jcbijiao.my/</link>
+    <description>jcbijiao.my 专注于2026年优质稳定机场评测、IEPL专线节点对比、4K流媒体解锁与Clash/Sing-box客户端配置教程，为您提供透明客观的科学上网节点选购与避坑指南。</description>
+    <language>zh-CN</language>
+    
+    <item>
+      <title>2026年精选机场横向评测与选购综合指南</title>
+      <link>https://jcbijiao.my/reviews/2026-comprehensive-airport-review/</link>
+      <description>本文对2026年主流机场服务进行多维度横向评测，涵盖IEPL专线、晚高峰表现、价格套餐与流媒体解锁能力。</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>优质稳定IEPL专线机场横向对比评测</title>
+      <link>https://jcbijiao.my/reviews/iepl-private-line-airport-review/</link>
+      <description>深入解析IEPL内网专线机场的网络架构优势，对比物理延迟、丢包控制与节点稳定性。</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>高性价比月付便宜机场评测推荐</title>
+      <link>https://jcbijiao.my/reviews/value-monthly-cheap-airport-review/</link>
+      <description>精选2026年高性价比按月付费机场，降低跑路风险，提供平价稳定的上网体验。</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>4K流媒体(Netflix/Disney+)解锁机场评测</title>
+      <link>https://jcbijiao.my/reviews/4k-streaming-unlock-airport-review/</link>
+      <description>评测支持4K超清解锁Netflix、Disney+、HBO Max与YouTube的稳定机场节点。</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>晚高峰不卡顿机场节点评测与丢包排查</title>
+      <link>https://jcbijiao.my/reviews/peak-hours-no-lag-airport-review/</link>
+      <description>实测晚高峰20:00-23:00时段各大机场的实际带宽开销、丢包情况与连通率。</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>全球云机场深入评测：节点分布与解锁能力</title>
+      <link>https://jcbijiao.my/reviews/quanqiu-cloud-in-depth-review/</link>
+      <description>对全球云机场进行全面深度评测，测试其多国家地区IEPL专线、智能分流与4K超清流畅度。</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>飞猫云机场性价比测评：小流量年付优势分析</title>
+      <link>https://jcbijiao.my/reviews/flycat-cloud-value-review/</link>
+      <description>针对飞猫云机场的小流量年付套餐与一键客户端进行测评，解析适合轻度用户的核心理由。</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>暮光网络机场测评：4K超清影音与AI大模型适配</title>
+      <link>https://jcbijiao.my/reviews/twilight-network-media-review/</link>
+      <description>评估暮光网络机场在4K大流量视频播放与AI工具访问方面的稳定性表现。</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>微风网络机场测评：多协议支持与客户端配置</title>
+      <link>https://jcbijiao.my/reviews/breezenet-multi-protocol-review/</link>
+      <description>介绍微风网络机场的技术参数、备用节点搭建与主流客户端订阅接入步骤。</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>专线中转机场与直连中转机场性能对比评测</title>
+      <link>https://jcbijiao.my/reviews/private-line-vs-direct-transit-review/</link>
+      <description>对比专线中转与公网直连机场在延迟、过封锁能力与成本性价比方面的差异。</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+  </channel>
+</rss>

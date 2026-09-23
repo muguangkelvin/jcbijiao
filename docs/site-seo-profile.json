@@ -1,0 +1,144 @@
+{
+  "profileVersion": "1.0.0",
+  "siteTopic": "机场节点对比与推荐、科学上网网络测速、节点订阅评测与客户端配置指南",
+  "domain": "jcbijiao.my",
+  "siteTitle": "机场比较网 - 2026年稳定高速节点推荐与评测指南 | 解锁4K流媒体与跨境专线",
+  "siteDescription": "jcbijiao.my 专注于2026年优质稳定机场评测、IEPL专线节点对比、4K流媒体解锁与Clash/Sing-box客户端配置教程，为您提供透明客观的科学上网节点选购与避坑指南。",
+  "primaryKeywords": [
+    "机场推荐",
+    "节点购买",
+    "机场测速",
+    "机场对比",
+    "翻墙机场",
+    "科学上网节点"
+  ],
+  "secondaryKeywords": [
+    "便宜机场",
+    "4K流媒体解锁机场",
+    "IEPL专线机场",
+    "跨境网络加速",
+    "订阅转换教程",
+    "Clash节点配置",
+    "科学上网梯子",
+    "稳定节点推荐"
+  ],
+  "longTailKeywords": [
+    "2026便宜稳定机场推荐",
+    "IEPL内网专线节点哪家好",
+    "Netflix/Disney+流媒体4K解锁机场对比",
+    "Clash/Sing-box订阅配置详细步骤",
+    "晚高峰不卡顿机场选购避坑指南",
+    "AI工具机场推荐与节点选择",
+    "月付便宜机场推荐避坑",
+    "小流量年付备用机场推荐"
+  ],
+  "heroKeywords": [
+    "2026精选机场横向评测",
+    "高性价比稳定节点推荐",
+    "跨境网络与流媒体加速专线",
+    "机场推荐",
+    "节点购买",
+    "机场对比",
+    "便宜机场",
+    "稳定节点推荐"
+  ],
+  "footerKeywords": [
+    "jcbijiao.my 节点比较评测网",
+    "全网机场测速与选购指南",
+    "透明客观的科学上网节点评测平台",
+    "机场推荐",
+    "节点购买",
+    "机场测速",
+    "机场对比",
+    "便宜机场",
+    "稳定节点"
+  ],
+  "navigationItems": [
+    {
+      "label": "首页",
+      "url": "/",
+      "type": "home",
+      "isContentSection": false,
+      "isCommercial": true,
+      "primaryKeyword": "机场比较与优质节点推荐",
+      "supportingKeywords": ["机场推荐", "节点购买", "机场对比"],
+      "articleCount": 1
+    },
+    {
+      "label": "机场推荐评测",
+      "url": "/reviews/",
+      "type": "reviews",
+      "isContentSection": true,
+      "isCommercial": true,
+      "primaryKeyword": "优质稳定机场评测推荐",
+      "supportingKeywords": ["2026精选机场横向评测", "高性价比稳定节点推荐", "机场推荐", "机场测评"],
+      "articleCount": 15
+    },
+    {
+      "label": "选购与避坑指南",
+      "url": "/guide/",
+      "type": "guide",
+      "isContentSection": true,
+      "isCommercial": true,
+      "primaryKeyword": "机场购买指南与避坑注意",
+      "supportingKeywords": ["晚高峰不卡顿机场选购避坑指南", "便宜机场", "稳定节点推荐"],
+      "articleCount": 10
+    },
+    {
+      "label": "客户端使用教程",
+      "url": "/tutorials/",
+      "type": "tutorials",
+      "isContentSection": true,
+      "isCommercial": false,
+      "primaryKeyword": "Clash/Sing-box客户端订阅配置教程",
+      "supportingKeywords": ["Clash节点配置", "订阅转换教程", "Clash/Sing-box订阅配置详细步骤"],
+      "articleCount": 12
+    },
+    {
+      "label": "常见问题解答",
+      "url": "/faq/",
+      "type": "faq",
+      "isContentSection": true,
+      "isCommercial": true,
+      "primaryKeyword": "科学上网与节点常见问题FAQ",
+      "supportingKeywords": ["IEPL专线节点哪家好", "科学上网梯子", "4K流媒体解锁机场"],
+      "articleCount": 100
+    }
+  ],
+  "faqKeywordCount": 100,
+  "faqClusters": [
+    {"name": "机场推荐与适用人群", "quota": 18},
+    {"name": "Clash客户端与订阅配置", "quota": 14},
+    {"name": "Shadowsocks协议基础", "quota": 10},
+    {"name": "Trojan协议与客户端兼容", "quota": 10},
+    {"name": "网络梯子服务选择与避坑", "quota": 8},
+    {"name": "节点地区延迟与专线倍率", "quota": 14},
+    {"name": "套餐价格流量与优惠码使用", "quota": 10},
+    {"name": "多设备支持与订阅转换导入", "quota": 8},
+    {"name": "故障排查退款与购买前须知", "quota": 8}
+  ],
+  "faqPageSize": 20,
+  "titlePatterns": {
+    "home": "机场比较网 - 2026年稳定高速节点推荐与评测指南 | 解锁4K流媒体与跨境专线",
+    "reviews": "优质稳定机场评测推荐 - 2026精选机场横向评测与横向对比 | jcbijiao.my",
+    "guide": "机场购买指南与避坑注意 - 晚高峰不卡顿选购指南 | jcbijiao.my",
+    "tutorials": "Clash/Sing-box客户端订阅配置教程 - 多平台客户端设置 | jcbijiao.my",
+    "faq": "科学上网与节点常见问题FAQ解答中心 (100+问答) | jcbijiao.my",
+    "provider": "{name}机场测评：2026最新价格套餐、IEPL节点与购买避坑指南 | jcbijiao.my"
+  },
+  "descriptionPatterns": {
+    "home": "jcbijiao.my 为关注跨境办公、流媒体4K解锁与海外开发的用户提供透明客观点评。汇聚2026高性价比IEPL专线节点推荐、便宜稳定机场对比与Clash配置教程。",
+    "reviews": "2026年精选稳定机场评测与推荐，深入对比全球云、飞猫云、暮光网络、微风网络等主流优质节点的延迟、套餐价格与流媒体解锁能力。",
+    "guide": "机场选购避坑全攻略：教你如何辨别假专线、评估晚高峰丢包率、选择合适按月或年付套餐，避免跑路风险。",
+    "tutorials": "全平台科学上网客户端使用教程：包含Windows/macOS/iOS/Android下的Clash、Sing-box、Shadowrocket订阅导入与配置步骤。"
+  },
+  "protectedBrandTerms": [
+    "全球云",
+    "飞猫云",
+    "暮光网络",
+    "微风网络",
+    "jcbijiao.my"
+  ],
+  "inactiveKeywords": [],
+  "sourceUpdatedAt": "2026-09-22T15:32:00+08:00"
+}

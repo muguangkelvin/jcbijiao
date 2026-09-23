@@ -1,0 +1,15 @@
+{
+  "name": "jcbijiao.my",
+  "version": "1.0.0",
+  "description": "Static Clean White Blog and Knowledge Base for jcbijiao.my",
+  "main": "src/generator/build.js",
+  "scripts": {
+    "generate": "node scripts/generate-faqs.js && node scripts/generate-articles.js && node scripts/generate-provider-matrix.js",
+    "build": "node scripts/generate-faqs.js && node scripts/generate-articles.js && node scripts/generate-provider-matrix.js && node src/generator/build.js",
+    "verify": "node scripts/verify.js",
+    "preview": "node scripts/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
