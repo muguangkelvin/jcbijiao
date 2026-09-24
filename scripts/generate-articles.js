@@ -366,16 +366,27 @@ function getProvidersForArticle(art, providersData) {
 }
 
 function getArticleBodyForSlug(art, targetProviders) {
-  const providerListHtml = targetProviders.map(p => `
-    <li style="margin-bottom:1.25rem; padding:1rem; border:1px solid var(--border-color); border-radius:8px; background-color:var(--bg-secondary);">
-      <strong style="font-size:1.1rem; color:var(--text-primary);">第${p.rank}名：${p.name}${p.alternateName ? '（' + p.alternateName + '）' : ''}</strong><br>
-      <strong>参考价格：</strong> ${p.priceFrom}<br>
-      <strong>核心优势：</strong> ${p.summary}<br>
-      <strong>适用场景：</strong> ${p.suitableFor}<br>
-      ${p.coupon && p.coupon !== '暂无优惠码' ? `<strong>优惠折扣：</strong> 结账输入优惠码 <strong>${p.coupon}</strong><br>` : ''}
-      <strong>核验说明：</strong> 详情请见 <a href="/providers/${p.slug}/">${p.name}机场测评</a>，套餐页面请访问 <a href="${p.inviteURL}" target="_blank" rel="sponsored nofollow noopener">${p.name}官方结算页 &rarr;</a>。
+  const providerListHtml = targetProviders.map(p => {
+    const pkgText = (p.packages && p.packages.length > 0)
+      ? p.packages.map(pkg => `${pkg.name}: ${pkg.price} (${pkg.traffic})`).join('；')
+      : `${p.priceFrom} (${p.trafficFrom})`;
+    const regionText = p.regions || '香港(HK)、日本(JP)、新加坡(SG)、美国(US)';
+
+    return `
+    <li style="margin-bottom:1.25rem; padding:1.2rem; border:1px solid var(--border-color); border-radius:8px; background-color:var(--bg-secondary);">
+      <strong style="font-size:1.15rem; color:var(--text-primary);">第${p.rank}名：${p.name}${p.alternateName ? '（' + p.alternateName + '）' : ''}</strong><br>
+      <div style="margin-top:0.5rem; line-height:1.7;">
+        <strong>参考价格：</strong> <span style="color:#059669; font-weight:600;">${p.priceFrom}</span><br>
+        <strong>包含套餐：</strong> ${pkgText}<br>
+        <strong>节点地区：</strong> ${regionText}<br>
+        <strong>核心优势：</strong> ${p.summary}<br>
+        <strong>适用场景：</strong> ${p.suitableFor}<br>
+        ${p.coupon && p.coupon !== '暂无优惠码' ? `<strong>优惠折扣：</strong> 结账输入优惠码 <strong style="color:#2563eb;">${p.coupon}</strong><br>` : ''}
+        <strong>核验说明：</strong> 详情请见 <a href="/providers/${p.slug}/">${p.name}机场测评</a>，套餐页面请访问 <a href="${p.inviteURL}" target="_blank" rel="sponsored nofollow noopener">${p.name}官方结算页 &rarr;</a>。
+      </div>
     </li>
-  `).join('\n');
+    `.trim();
+  }).join('\n');
 
   const contentMap = {
     // REVIEWS

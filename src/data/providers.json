@@ -14,9 +14,24 @@
     "suitableFor": "动态分流、智能中继、跨境办公与流媒体加速",
     "summary": "灵动云注重线路智能分流与客户端便捷适配，方便新手入门使用。",
     "packages": [
-      {"name": "极速套餐", "price": "15 元/月", "traffic": "100GB/月"}
+      {
+        "name": "基础体验包",
+        "price": "15 元/月",
+        "traffic": "100GB/月"
+      },
+      {
+        "name": "标准进阶包",
+        "price": "30 元/月",
+        "traffic": "250GB/月"
+      },
+      {
+        "name": "旗舰大流量包",
+        "price": "55 元/月",
+        "traffic": "500GB/月"
+      }
     ],
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)、韩国(KR)"
   },
   {
     "rank": 2,
@@ -33,9 +48,24 @@
     "suitableFor": "晚高峰4K超清影音播放与AI大模型使用",
     "summary": "暮光网络专为4K超高清视频与AI大模型使用优化，晚高峰稳定性强。",
     "packages": [
-      {"name": "标准影音", "price": "20 元/月", "traffic": "120GB/月"}
+      {
+        "name": "4K影音套餐",
+        "price": "20 元/月",
+        "traffic": "120GB/月"
+      },
+      {
+        "name": "AI与大流量包",
+        "price": "38 元/月",
+        "traffic": "300GB/月"
+      },
+      {
+        "name": "至尊无限速包",
+        "price": "68 元/月",
+        "traffic": "600GB/月"
+      }
     ],
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)、英国(UK)"
   },
   {
     "rank": 3,
@@ -52,9 +82,24 @@
     "suitableFor": "高性价比小流量年付与轻量备用",
     "summary": "飞猫云主打高性价比小流量年付方案，内置极简一键客户端。",
     "packages": [
-      {"name": "轻量年付", "price": "84 元/年", "traffic": "50GB/月"}
+      {
+        "name": "轻量备用年付",
+        "price": "84 元/年",
+        "traffic": "50GB/月"
+      },
+      {
+        "name": "标准版年付",
+        "price": "148 元/年",
+        "traffic": "120GB/月"
+      },
+      {
+        "name": "不限时按量包",
+        "price": "60 元/一次性",
+        "traffic": "200GB (永久有效)"
+      }
     ],
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)"
   },
   {
     "rank": 4,
@@ -71,9 +116,24 @@
     "suitableFor": "轻量选购、V2Ray/Shadowsocks/Trojan多协议整合",
     "summary": "微风网络提供多协议支持与稳定备用节点，方便导入各种客户端。",
     "packages": [
-      {"name": "多协议套餐", "price": "16 元/月", "traffic": "100GB/月"}
+      {
+        "name": "多协议体验版",
+        "price": "16 元/月",
+        "traffic": "100GB/月"
+      },
+      {
+        "name": "多协议进阶版",
+        "price": "32 元/月",
+        "traffic": "220GB/月"
+      },
+      {
+        "name": "年度多协议包",
+        "price": "160 元/年",
+        "traffic": "150GB/月"
+      }
     ],
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)"
   },
   {
     "rank": 5,
@@ -90,9 +150,24 @@
     "suitableFor": "隐私加密防护、匿名网络浏览、高安全独立中继",
     "summary": "隐形人强调对传输数据的端到端隐私加密与出入口独立防护，网络连接稳定安全。",
     "packages": [
-      {"name": "加密独立套餐", "price": "25 元/月", "traffic": "150GB/月"}
+      {
+        "name": "加密独立基础包",
+        "price": "25 元/月",
+        "traffic": "150GB/月"
+      },
+      {
+        "name": "双向中继高级包",
+        "price": "45 元/月",
+        "traffic": "350GB/月"
+      },
+      {
+        "name": "企业独立中继包",
+        "price": "88 元/月",
+        "traffic": "800GB/月"
+      }
     ],
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)、德国(DE)"
   },
   {
     "rank": 6,
@@ -109,9 +184,24 @@
     "suitableFor": "云端网络中继、4K流媒体加速与高速连通",
     "summary": "浪网 WaveNet 依托优质网络中继，为跨国网络连接提供可靠通道与流畅播放体验。",
     "packages": [
-      {"name": "云端中继套餐", "price": "18 元/月", "traffic": "120GB/月"}
+      {
+        "name": "云端中继基础包",
+        "price": "18 元/月",
+        "traffic": "120GB/月"
+      },
+      {
+        "name": "4K极速专线包",
+        "price": "35 元/月",
+        "traffic": "280GB/月"
+      },
+      {
+        "name": "畅游年度套餐",
+        "price": "180 元/年",
+        "traffic": "180GB/月"
+      }
     ],
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、韩国(KR)"
   },
   {
     "rank": 7,
@@ -128,9 +218,24 @@
     "suitableFor": "梯子备用防断连、稳定科学上网与多设备兼容",
     "summary": "梯子云 LadderCloud 提供基础多节点支持，注重网络稳定性与服务可用性。",
     "packages": [
-      {"name": "备用容灾套餐", "price": "12 元/月", "traffic": "80GB/月"}
+      {
+        "name": "基础入门包",
+        "price": "12 元/月",
+        "traffic": "80GB/月"
+      },
+      {
+        "name": "双卡备用包",
+        "price": "24 元/月",
+        "traffic": "200GB/月"
+      },
+      {
+        "name": "超值年付包",
+        "price": "118 元/年",
+        "traffic": "100GB/月"
+      }
     ],
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)"
   },
   {
     "rank": 8,
@@ -147,9 +252,24 @@
     "suitableFor": "轻量选购、V2Ray/Shadowsocks/Trojan多协议整合",
     "summary": "飞V网络整合多协议线路，方便用户一键拉取订阅更新与极速接入。",
     "packages": [
-      {"name": "极速多协议套餐", "price": "15 元/月", "traffic": "100GB/月"}
+      {
+        "name": "基础多协议包",
+        "price": "15 元/月",
+        "traffic": "100GB/月"
+      },
+      {
+        "name": "高带宽流媒体包",
+        "price": "28 元/月",
+        "traffic": "200GB/月"
+      },
+      {
+        "name": "全能年卡包",
+        "price": "140 元/年",
+        "traffic": "120GB/月"
+      }
     ],
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)"
   },
   {
     "rank": 9,
@@ -166,9 +286,24 @@
     "suitableFor": "多地区IEPL专线、4K流媒体解锁",
     "summary": "全球云提供全球多国家节点部署与IEPL内网专线支持。",
     "packages": [
-      {"name": "专线套餐", "price": "20 元/月", "traffic": "120GB/月"}
+      {
+        "name": "IEPL专线基础包",
+        "price": "20 元/月",
+        "traffic": "120GB/月"
+      },
+      {
+        "name": "IEPL专线进阶包",
+        "price": "38 元/月",
+        "traffic": "260GB/月"
+      },
+      {
+        "name": "全球多节点旗舰包",
+        "price": "75 元/月",
+        "traffic": "600GB/月"
+      }
     ],
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)、韩国(KR)、英国(UK)"
   },
   {
     "rank": 10,
@@ -184,7 +319,25 @@
     "trafficFrom": "100GB/月",
     "suitableFor": "流媒体加速",
     "summary": "星岛梦提供稳定极速的跨国节点连接服务。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)",
+    "packages": [
+      {
+        "name": "标准套餐",
+        "price": "18 元/月",
+        "traffic": "100GB/月"
+      },
+      {
+        "name": "高级中继套餐",
+        "price": "32 元/月",
+        "traffic": "220GB/月"
+      },
+      {
+        "name": "尊享年付套餐",
+        "price": "168 元/年",
+        "traffic": "120GB/月"
+      }
+    ]
   },
   {
     "rank": 11,
@@ -200,7 +353,25 @@
     "trafficFrom": "90GB/月",
     "suitableFor": "高速网页浏览",
     "summary": "光速云主打低延迟线路与优质节点部署。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)",
+    "packages": [
+      {
+        "name": "极速基础包",
+        "price": "15 元/月",
+        "traffic": "90GB/月"
+      },
+      {
+        "name": "低延迟尊享包",
+        "price": "28 元/月",
+        "traffic": "200GB/月"
+      },
+      {
+        "name": "光速年卡包",
+        "price": "138 元/年",
+        "traffic": "100GB/月"
+      }
+    ]
   },
   {
     "rank": 12,
@@ -216,7 +387,25 @@
     "trafficFrom": "100GB/月",
     "suitableFor": "V2Ray订阅",
     "summary": "唯兔云支持多种代理协议与快捷客户端转换。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)",
+    "packages": [
+      {
+        "name": "V2Ray基础包",
+        "price": "16 元/月",
+        "traffic": "100GB/月"
+      },
+      {
+        "name": "V2Ray专业包",
+        "price": "30 元/月",
+        "traffic": "220GB/月"
+      },
+      {
+        "name": "全协议年付包",
+        "price": "150 元/年",
+        "traffic": "120GB/月"
+      }
+    ]
   },
   {
     "rank": 13,
@@ -232,7 +421,25 @@
     "trafficFrom": "80GB/月",
     "suitableFor": "常规节点接入",
     "summary": "U1S1提供透明公开的节点参数。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)",
+    "packages": [
+      {
+        "name": "实惠月付包",
+        "price": "12 元/月",
+        "traffic": "80GB/月"
+      },
+      {
+        "name": "透明流量包",
+        "price": "22 元/月",
+        "traffic": "160GB/月"
+      },
+      {
+        "name": "不限时一次性包",
+        "price": "50 元/一次性",
+        "traffic": "150GB (永久有效)"
+      }
+    ]
   },
   {
     "rank": 14,
@@ -248,7 +455,25 @@
     "trafficFrom": "150GB/月",
     "suitableFor": "跨境办公",
     "summary": "极连云采用优化网络传输链路。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)、韩国(KR)",
+    "packages": [
+      {
+        "name": "办公中继基础包",
+        "price": "22 元/月",
+        "traffic": "150GB/月"
+      },
+      {
+        "name": "跨境商务进阶包",
+        "price": "42 元/月",
+        "traffic": "320GB/月"
+      },
+      {
+        "name": "企业专线大流量包",
+        "price": "78 元/月",
+        "traffic": "700GB/月"
+      }
+    ]
   },
   {
     "rank": 15,
@@ -264,7 +489,25 @@
     "trafficFrom": "100GB/月",
     "suitableFor": "多节点覆盖",
     "summary": "光年梯专注于外网加速与多终端一键导入。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)",
+    "packages": [
+      {
+        "name": "外网基础包",
+        "price": "14 元/月",
+        "traffic": "100GB/月"
+      },
+      {
+        "name": "多终端进阶包",
+        "price": "26 元/月",
+        "traffic": "200GB/月"
+      },
+      {
+        "name": "光年年度套餐",
+        "price": "130 元/年",
+        "traffic": "110GB/月"
+      }
+    ]
   },
   {
     "rank": 16,
@@ -280,7 +523,25 @@
     "trafficFrom": "60GB/月",
     "suitableFor": "轻度浏览",
     "summary": "Sogo云提供基础节点套餐。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)",
+    "packages": [
+      {
+        "name": "平价迷你包",
+        "price": "10 元/月",
+        "traffic": "60GB/月"
+      },
+      {
+        "name": "日常上网包",
+        "price": "18 元/月",
+        "traffic": "130GB/月"
+      },
+      {
+        "name": "Sogo年付包",
+        "price": "98 元/年",
+        "traffic": "70GB/月"
+      }
+    ]
   },
   {
     "rank": 17,
@@ -296,7 +557,25 @@
     "trafficFrom": "200GB/月",
     "suitableFor": "大流量需求",
     "summary": "宇宙云拥有覆盖广泛的海外IP出口。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)、韩国(KR)、英国(UK)",
+    "packages": [
+      {
+        "name": "海量流量基础包",
+        "price": "25 元/月",
+        "traffic": "200GB/月"
+      },
+      {
+        "name": "多出口IP进阶包",
+        "price": "48 元/月",
+        "traffic": "450GB/月"
+      },
+      {
+        "name": "宇宙无限流包",
+        "price": "88 元/月",
+        "traffic": "900GB/月"
+      }
+    ]
   },
   {
     "rank": 18,
@@ -312,7 +591,25 @@
     "trafficFrom": "50GB/月",
     "suitableFor": "备用节点",
     "summary": "二猫云主打极简设计与稳定小套餐。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)",
+    "packages": [
+      {
+        "name": "极简备用包",
+        "price": "9 元/月",
+        "traffic": "50GB/月"
+      },
+      {
+        "name": "二猫标准包",
+        "price": "16 元/月",
+        "traffic": "110GB/月"
+      },
+      {
+        "name": "二猫年卡包",
+        "price": "88 元/年",
+        "traffic": "60GB/月"
+      }
+    ]
   },
   {
     "rank": 19,
@@ -328,7 +625,25 @@
     "trafficFrom": "100GB/月",
     "suitableFor": "流媒体播放",
     "summary": "一翻云提供快捷订阅链接。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)",
+    "packages": [
+      {
+        "name": "快捷订阅包",
+        "price": "15 元/月",
+        "traffic": "100GB/月"
+      },
+      {
+        "name": "影音流畅包",
+        "price": "28 元/月",
+        "traffic": "200GB/月"
+      },
+      {
+        "name": "一翻年付包",
+        "price": "140 元/年",
+        "traffic": "100GB/月"
+      }
+    ]
   },
   {
     "rank": 20,
@@ -344,7 +659,25 @@
     "trafficFrom": "200GB/月",
     "suitableFor": "边缘加速",
     "summary": "EdgeNova利用边缘计算节点分布降低访问延迟。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)、韩国(KR)",
+    "packages": [
+      {
+        "name": "边缘计算基础包",
+        "price": "28 元/月",
+        "traffic": "200GB/月"
+      },
+      {
+        "name": "低延迟加速包",
+        "price": "52 元/月",
+        "traffic": "400GB/月"
+      },
+      {
+        "name": "EdgeNova旗舰包",
+        "price": "95 元/月",
+        "traffic": "850GB/月"
+      }
+    ]
   },
   {
     "rank": 21,
@@ -360,7 +693,25 @@
     "trafficFrom": "120GB/月",
     "suitableFor": "安全连接",
     "summary": "可信云强调节点数据传输的安全性与稳定连通性。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)",
+    "packages": [
+      {
+        "name": "安全传输基础包",
+        "price": "20 元/月",
+        "traffic": "120GB/月"
+      },
+      {
+        "name": "高稳定性进阶包",
+        "price": "36 元/月",
+        "traffic": "240GB/月"
+      },
+      {
+        "name": "可信尊享年包",
+        "price": "188 元/年",
+        "traffic": "130GB/月"
+      }
+    ]
   },
   {
     "rank": 22,
@@ -376,7 +727,25 @@
     "trafficFrom": "100GB/月",
     "suitableFor": "跨境电商",
     "summary": "速界为用户提供平稳高速的翻墙节点通道。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)",
+    "packages": [
+      {
+        "name": "速界基础包",
+        "price": "18 元/月",
+        "traffic": "100GB/月"
+      },
+      {
+        "name": "外贸电商进阶包",
+        "price": "35 元/月",
+        "traffic": "230GB/月"
+      },
+      {
+        "name": "速界年度包",
+        "price": "170 元/年",
+        "traffic": "110GB/月"
+      }
+    ]
   },
   {
     "rank": 23,
@@ -392,7 +761,25 @@
     "trafficFrom": "80GB/月",
     "suitableFor": "移动端适配",
     "summary": "快狸专注于移动设备连接优化。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)",
+    "packages": [
+      {
+        "name": "移动端体验包",
+        "price": "12 元/月",
+        "traffic": "80GB/月"
+      },
+      {
+        "name": "快狸多设备包",
+        "price": "22 元/月",
+        "traffic": "160GB/月"
+      },
+      {
+        "name": "快狸年卡包",
+        "price": "110 元/年",
+        "traffic": "90GB/月"
+      }
+    ]
   },
   {
     "rank": 24,
@@ -408,7 +795,25 @@
     "trafficFrom": "100GB/月",
     "suitableFor": "省心上手",
     "summary": "无忧网络致力于提供免烦恼的科学上网体验。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)",
+    "packages": [
+      {
+        "name": "省心上手包",
+        "price": "15 元/月",
+        "traffic": "100GB/月"
+      },
+      {
+        "name": "无忧畅游包",
+        "price": "28 元/月",
+        "traffic": "200GB/月"
+      },
+      {
+        "name": "无忧年付包",
+        "price": "140 元/年",
+        "traffic": "100GB/月"
+      }
+    ]
   },
   {
     "rank": 25,
@@ -424,7 +829,25 @@
     "trafficFrom": "120GB/月",
     "suitableFor": "高并发浏览",
     "summary": "灵猫网络配置了高带宽节点专线。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)",
+    "packages": [
+      {
+        "name": "高并发基础包",
+        "price": "19 元/月",
+        "traffic": "120GB/月"
+      },
+      {
+        "name": "高带宽进阶包",
+        "price": "36 元/月",
+        "traffic": "250GB/月"
+      },
+      {
+        "name": "灵猫年度包",
+        "price": "178 元/年",
+        "traffic": "130GB/月"
+      }
+    ]
   },
   {
     "rank": 26,
@@ -440,7 +863,25 @@
     "trafficFrom": "150GB/月",
     "suitableFor": "极速响应",
     "summary": "闪跃 FlashLeap 主打低延迟快速连接。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)",
+    "packages": [
+      {
+        "name": "闪跃极速包",
+        "price": "22 元/月",
+        "traffic": "150GB/月"
+      },
+      {
+        "name": "低延迟进阶包",
+        "price": "40 元/月",
+        "traffic": "300GB/月"
+      },
+      {
+        "name": "FlashLeap年包",
+        "price": "198 元/年",
+        "traffic": "160GB/月"
+      }
+    ]
   },
   {
     "rank": 27,
@@ -456,7 +897,25 @@
     "trafficFrom": "100GB/月",
     "suitableFor": "稳定输出",
     "summary": "飞为 Firefly 具备良好的网络兼容性。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)",
+    "packages": [
+      {
+        "name": "兼容基础包",
+        "price": "16 元/月",
+        "traffic": "100GB/月"
+      },
+      {
+        "name": "稳定输出包",
+        "price": "30 元/月",
+        "traffic": "210GB/月"
+      },
+      {
+        "name": "飞为年卡包",
+        "price": "150 元/年",
+        "traffic": "110GB/月"
+      }
+    ]
   },
   {
     "rank": 28,
@@ -472,6 +931,24 @@
     "trafficFrom": "180GB/月",
     "suitableFor": "外贸业务",
     "summary": "跨界为外网访问与跨境工作者提供稳定的国际网络中转服务。",
-    "lastChecked": "2026-09-22"
+    "lastChecked": "2026-09-22",
+    "regions": "香港(HK)、日本(JP)、新加坡(SG)、美国(US)、台湾(TW)、韩国(KR)",
+    "packages": [
+      {
+        "name": "外贸专线基础包",
+        "price": "25 元/月",
+        "traffic": "180GB/月"
+      },
+      {
+        "name": "跨境工作者进阶包",
+        "price": "45 元/月",
+        "traffic": "360GB/月"
+      },
+      {
+        "name": "跨界商务大流量包",
+        "price": "80 元/月",
+        "traffic": "750GB/月"
+      }
+    ]
   }
 ]
